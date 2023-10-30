@@ -36,16 +36,16 @@
 			</div>
 			<div class="flex flex-col ml-auto">
 				<a
-					href="#"
+					href="/register"
 					class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-gray-800 hover:bg-white mt-4"
 				>
 					Register
 				</a>
 				<a
-					href="#"
+					href="/login"
 					class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-gray-800 hover:bg-white mt-4"
 				>
-					Sign In
+					Login
 				</a>
 			</div>
 		</div>
@@ -68,16 +68,16 @@
 		</div>
 		<div class="space-x-5">
 			<a
-				href="#"
+				href="/register"
 				class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-gray-800 hover:bg-white mt-4 md:mt-0"
 			>
 				Register
 			</a>
 			<a
-				href="#"
+				href="/login"
 				class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-gray-800 hover:bg-white mt-4 md:mt-0"
 			>
-				Sign In
+				Login
 			</a>
 		</div>
 	</div>
