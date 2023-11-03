@@ -76,6 +76,7 @@ def webscraper(url):
                     'Prereqesites':f'{preq}'
                 }
                 data1.append(new_entry)
+        #driver.quit
         return data1
             
 
@@ -84,6 +85,6 @@ url = 'https://catalog.fullerton.edu/preview_program.php?catoid=70&poid=32659'
 data = webscraper(url)
 print(data)
 
-with open("data.json", "a") as json_file:
+with open("2021_2022_data.json", "a") as json_file:
     # Step 4: Serialize the data and write it to the file
     json.dump(data, json_file)
