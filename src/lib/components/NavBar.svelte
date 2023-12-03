@@ -27,9 +27,7 @@
 	{#if isMenuOpen}
 		<div class="w-full flex flex-row md:hidden flex-grow">
 			<div class="text-lg">
-				<a href="#responsive-header" class="block mt-4 text-gray-200 hover:text-white mr-4">
-					About
-				</a>
+				<a href="/courses" class="block mt-4 text-gray-200 hover:text-white mr-4"> Courses </a>
 				<a href="#responsive-header" class="block mt-4 text-gray-200 hover:text-white mr-4">
 					Tutorial
 				</a>
@@ -48,10 +46,10 @@
 	<div class="w-full hidden md:flex flex-grow md:items-center md:w-auto">
 		<div class="text-sm md:flex-grow">
 			<a
-				href="#responsive-header"
+				href="/courses"
 				class="block mt-4 md:inline-block md:mt-0 text-gray-200 hover:text-white mr-4"
 			>
-				About
+				Courses
 			</a>
 			<a
 				href="#responsive-header"
