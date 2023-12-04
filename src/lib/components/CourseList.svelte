@@ -1,82 +1,88 @@
 <!-- CourseList.svelte -->
-<script lang='ts'>
-    import { onMount } from "svelte";
-    import Course from "./Course.svelte";
+<script lang="ts">
+	import { onMount } from 'svelte';
+	import Course from './Course.svelte';
 
-    export let division: string;
-    export let jsonFilePath: string; // Add a prop for the JSON file path
-    
-    let showDetails = false;
+	export let division: string;
+	export let jsonFilePath: string; // Add a prop for the JSON file path
 
-    function toggleDetails(){
-        showDetails = !showDetails
-    }
+	let showDetails = false;
 
-    let courses: Array<{
-        key:number;
-        id: number;
-        "course code": string;
-        title: string;
-        description: string;
-        prerequisites: string[];
-        credits: number;
-    }> = [];
-  
-    onMount(async () => {
-        if (!jsonFilePath) {
-            console.error("Please provide a valid JSON file path.");
-            return;
-        }
+	function toggleDetails() {
+		showDetails = !showDetails;
+	}
 
-        try {
-            const response = await fetch(jsonFilePath);
+	let courses: Array<{
+		key: number;
+		id: number;
+		'course code': string;
+		title: string;
+		description: string;
+		prerequisites: string[];
+		corequisites: string[];
+		credits: number;
+	}> = [];
 
-            if (!response.ok) {
-            throw new Error(`Failed to fetch data (status ${response.status}).`);
-            }
+	onMount(async () => {
+		if (!jsonFilePath) {
+			console.error('Please provide a valid JSON file path.');
+			return;
+		}
 
-            courses = await response.json();
-        } catch (error) {
-            console.error("Error fetching data:", error);
-        }
-    });
-  </script>
-  
-  <style>
-    /* Styling for the button */
-    button {
-        background-color: #007bff;
-        color: white;
-        padding: 10px;
-        border: none;
-        cursor: pointer;
-        transition: background-color 0.3s;
-    }
+		try {
+			const response = await fetch(jsonFilePath);
 
-    button:hover {
-        background-color: #0056b3;
-    }
+			if (!response.ok) {
+				throw new Error(`Failed to fetch data (status ${response.status}).`);
+			}
 
-    /* Styling for the container */
-    div {
-        margin: 20px;
-    }
+			courses = await response.json();
+		} catch (error) {
+			console.error('Error fetching data:', error);
+		}
+	});
+</script>
 
-    /* Add focus styling for better accessibility */
-    button:focus {
-        outline: 2px solid #0056b3;
-    }
-  </style>
-  
-  <div>
-    <button on:click={toggleDetails} >
-        {division}
-    </button>
-    {#if showDetails}
-        {#each Object.entries(courses) as [key, course]}
-            <Course {course} />
-        {/each}
-    {/if}
-  </div>
-  
-  
+<div>
+	<button on:click={toggleDetails}>
+		{division}
+	</button>
+	{#if showDetails}
+		{#each Object.entries(courses) as [key, course]}
+			<Course
+				name={key}
+				title={course.title}
+				description={course.description}
+				prerequisites={course.prerequisites}
+				corequisites={course.corequisites}
+				credits={course.credits}
+			/>
+		{/each}
+	{/if}
+</div>
+
+<style>
+	/* Styling for the button */
+	button {
+		background-color: #007bff;
+		color: white;
+		padding: 10px;
+		border: none;
+		cursor: pointer;
+		transition: background-color 0.3s;
+	}
+
+	button:hover {
+		background-color: #0056b3;
+	}
+
+	/* Styling for the container */
+	div {
+		margin: 20px;
+	}
+
+	/* Add focus styling for better accessibility */
+	button:focus {
+		outline: 2px solid #0056b3;
+	}
+</style>
