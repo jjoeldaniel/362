@@ -103,7 +103,7 @@
 <form method="post" action="?/signout" use:enhance={handleSignOut} class="mt-auto">
 	<div>
 		<button
-			class="w-full py-2 px-4 bg-gray-300 text-gray-600 rounded cursor-pointer rounded-t-none"
+			class="w-full py-2 px-4 bg-gray-300 hover:bg-red-300 hover:font-semibold hover:text-black text-gray-600 rounded cursor-pointer rounded-t-none"
 			disabled={loading}
 		>
 			Sign Out
