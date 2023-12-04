@@ -1,116 +1,99 @@
 {
-    "CPSC 315": {
-        "title": "Professional Ethics in Computing",
-        "description": "Ethics and moral philosophy as applied to software and digital artifacts. Notions of rights, responsibilities, property, ownership, privacy, security, and professional ethics. Security obligations. Intellectual propertystatutes, licenses, and their terms. Oral and written reports are required.",
-        "prerequisites": [
-            "Prerequisites: CPSC 131; Computer Science or Computer Engineering major or minor; or Computer Science or Computer Engineering graduate standing."
-        ],
-        "corequisites": [],
-        "credits": 3,
-        "checked": false
-    },
-    "CPSC 323": {
-        "title": "Compilers and Languages",
-        "description": "Basic concepts of programming languages and principles of translation. Topics include history of programming languages, various programming paradigms, language design issues and criteria, design of compilers for modern programming languages.",
-        "prerequisites": [
-            "Prerequisites: CPSC 131; Computer Science or Computer Engineering major or minor; or Computer Science or Computer Engineering graduate standing."
-        ],
-        "corequisites": [],
-        "credits": 3,
-        "checked": false
-    },
-    "CPSC 332": {
-        "title": "File Structures and Database Systems",
-        "description": "Fundamental theories and design of database systems, the Structured Query Language (SQL), basic concepts and techniques of data organization in secondary storage. Topics include introduction to database systems, ER model, relational model, index structures and hashing techniques.",
-        "prerequisites": [
-            "Prerequisites: CPSC 131; Computer Science or Computer Engineering major or minor; or Computer Science or Computer Engineering graduate standing."
-        ],
-        "corequisites": [],
-        "credits": 3,
-        "checked": false
-    },
-    "CPSC 335": {
-        "title": "Algorithm Engineering",
-        "description": "Algorithm design using classical patterns: exhaustive search, divide and conquer, randomization, hashing, reduction, dynamic programming, and the greedy method. Asymptotic and experimental efficiency analysis. NP-completeness and decidability. Implementing algorithms to solve practical problems.",
-        "prerequisites": [
-            "Prerequisites: MATH 270B",
-            "CPSC 131; Computer Science or Computer Engineering major or minor; or Computer Science or Computer Engineering graduate standing."
-        ],
-        "corequisites": [],
-        "credits": 3,
-        "checked": false
-    },
-    "CPSC 351": {
-        "title": "Operating Systems Concepts",
-        "description": "Resource management, memory organization, input/output, control process synchronization and other concepts as related to the objectives of multi-user operating systems.",
-        "prerequisites": [
-            "CPSC 131 or Computer Science or Computer Engineering graduate standing."
-        ],
-        "corequisites": [],
-        "credits": 3,
-        "checked": false
-    },
-    "CPSC 353": {
-        "title": "Introduction to Computer Security",
-        "description": "Security goals, security systems, access controls, networks and security, integrity, cryptography fundamentals, authentication. Attacks: software, network, website; management considerations, security standards in government and industry; security issues in requirements, architecture, design, implementation, testing, operation, maintenance, acquisition, and services.",
-        "prerequisites": [
-            "CPSC 131 or Computer Science or Computer Engineering graduate standing."
-        ],
-        "corequisites": [],
-        "credits": 3,
-        "checked": false
-    },
-    "CPSC 362": {
-        "title": "Foundations of Software Engineering",
-        "description": "Basic concepts, principles, methods, techniques and practices of software engineering. All aspects of the software engineering fields. Use Computer-Aided Software Engineering (CASE) tools.",
-        "prerequisites": [
-            "Prerequisites: CPSC 131; Computer Science or Computer Engineering major or minor; or Computer Science or Computer Engineering graduate standing."
-        ],
-        "corequisites": [],
-        "credits": 3,
-        "checked": false
-    },
-    "CPSC 471": {
-        "title": "Computer Communications",
-        "description": "Introduction to digital data communications. Terminology, networks and their components, common-carrier services, telecommunication facilities, terminals, error control, multiplexing and concentration techniques.",
-        "prerequisites": [
-            "Prerequisites: CPSC 351; Computer Science or Computer Engineering major or minor; or Computer Science or Computer Engineering graduate standing."
-        ],
-        "corequisites": [],
-        "credits": 3,
-        "checked": false
-    },
-    "CPSC 481": {
-        "title": "Artificial Intelligence",
-        "description": "Using computers to simulate human intelligence. Production systems, pattern recognition, problem solving, searching game trees, knowledge representation and logical reasoning. Programming in AI environments.",
-        "prerequisites": [
-            "Prerequisites: CPSC 335",
-            "MATH 338; Computer Science or Computer Engineering major or minor; or Computer Science or Computer Engineering graduate standing."
-        ],
-        "corequisites": [],
-        "credits": 3,
-        "checked": false
-    },
-    "CPSC 490": {
-        "title": "Undergraduate Seminar in Computer Science",
-        "description": "Review of foundational computer science theories and principles, real-world application development methods and processes, and industry practices. Survey of modern computing technologies. Research methods. Identification of research or practical application problems. Writing and presenting a proposal for a capstone project.",
-        "prerequisites": [
-            "Prerequisites: CPSC 362",
-            "junior or senior standing",
-            "Computer Science major."
-        ],
-        "corequisites": [],
-        "credits": 3,
-        "checked": false
-    },
-    "CPSC 491": {
-        "title": "Senior Capstone Project in Computer Science",
-        "description": "A computer science research or real-world level of application development project. Business communication. Presenting the results to a wide range of audiences. Demonstrating the culminating experience of the practicum in computer science. Writing a final project report and technical documents such as user manuals, installation guides, feasibility study reports.",
-        "prerequisites": [
-            "CPSC 490."
-        ],
-        "corequisites": [],
-        "credits": 3,
-        "checked": false
-    }
+	"CPSC 315": {
+		"title": "Professional Ethics in Computing",
+		"description": "Ethics and moral philosophy as applied to software and digital artifacts. Notions of rights, responsibilities, property, ownership, privacy, security, and professional ethics. Security obligations. Intellectual propertystatutes, licenses, and their terms. Oral and written reports are required.",
+		"prerequisites": [
+			"Prerequisites: CPSC 131; Computer Science or Computer Engineering major or minor; or Computer Science or Computer Engineering graduate standing."
+		],
+		"corequisites": [],
+		"credits": 3
+	},
+	"CPSC 323": {
+		"title": "Compilers and Languages",
+		"description": "Basic concepts of programming languages and principles of translation. Topics include history of programming languages, various programming paradigms, language design issues and criteria, design of compilers for modern programming languages.",
+		"prerequisites": [
+			"Prerequisites: CPSC 131; Computer Science or Computer Engineering major or minor; or Computer Science or Computer Engineering graduate standing."
+		],
+		"corequisites": [],
+		"credits": 3
+	},
+	"CPSC 332": {
+		"title": "File Structures and Database Systems",
+		"description": "Fundamental theories and design of database systems, the Structured Query Language (SQL), basic concepts and techniques of data organization in secondary storage. Topics include introduction to database systems, ER model, relational model, index structures and hashing techniques.",
+		"prerequisites": [
+			"Prerequisites: CPSC 131; Computer Science or Computer Engineering major or minor; or Computer Science or Computer Engineering graduate standing."
+		],
+		"corequisites": [],
+		"credits": 3
+	},
+	"CPSC 335": {
+		"title": "Algorithm Engineering",
+		"description": "Algorithm design using classical patterns: exhaustive search, divide and conquer, randomization, hashing, reduction, dynamic programming, and the greedy method. Asymptotic and experimental efficiency analysis. NP-completeness and decidability. Implementing algorithms to solve practical problems.",
+		"prerequisites": [
+			"Prerequisites: MATH 270B",
+			"CPSC 131; Computer Science or Computer Engineering major or minor; or Computer Science or Computer Engineering graduate standing."
+		],
+		"corequisites": [],
+		"credits": 3
+	},
+	"CPSC 351": {
+		"title": "Operating Systems Concepts",
+		"description": "Resource management, memory organization, input/output, control process synchronization and other concepts as related to the objectives of multi-user operating systems.",
+		"prerequisites": ["CPSC 131 or Computer Science or Computer Engineering graduate standing."],
+		"corequisites": [],
+		"credits": 3
+	},
+	"CPSC 353": {
+		"title": "Introduction to Computer Security",
+		"description": "Security goals, security systems, access controls, networks and security, integrity, cryptography fundamentals, authentication. Attacks: software, network, website; management considerations, security standards in government and industry; security issues in requirements, architecture, design, implementation, testing, operation, maintenance, acquisition, and services.",
+		"prerequisites": ["CPSC 131 or Computer Science or Computer Engineering graduate standing."],
+		"corequisites": [],
+		"credits": 3
+	},
+	"CPSC 362": {
+		"title": "Foundations of Software Engineering",
+		"description": "Basic concepts, principles, methods, techniques and practices of software engineering. All aspects of the software engineering fields. Use Computer-Aided Software Engineering (CASE) tools.",
+		"prerequisites": [
+			"Prerequisites: CPSC 131; Computer Science or Computer Engineering major or minor; or Computer Science or Computer Engineering graduate standing."
+		],
+		"corequisites": [],
+		"credits": 3
+	},
+	"CPSC 471": {
+		"title": "Computer Communications",
+		"description": "Introduction to digital data communications. Terminology, networks and their components, common-carrier services, telecommunication facilities, terminals, error control, multiplexing and concentration techniques.",
+		"prerequisites": [
+			"Prerequisites: CPSC 351; Computer Science or Computer Engineering major or minor; or Computer Science or Computer Engineering graduate standing."
+		],
+		"corequisites": [],
+		"credits": 3
+	},
+	"CPSC 481": {
+		"title": "Artificial Intelligence",
+		"description": "Using computers to simulate human intelligence. Production systems, pattern recognition, problem solving, searching game trees, knowledge representation and logical reasoning. Programming in AI environments.",
+		"prerequisites": [
+			"Prerequisites: CPSC 335",
+			"MATH 338; Computer Science or Computer Engineering major or minor; or Computer Science or Computer Engineering graduate standing."
+		],
+		"corequisites": [],
+		"credits": 3
+	},
+	"CPSC 490": {
+		"title": "Undergraduate Seminar in Computer Science",
+		"description": "Review of foundational computer science theories and principles, real-world application development methods and processes, and industry practices. Survey of modern computing technologies. Research methods. Identification of research or practical application problems. Writing and presenting a proposal for a capstone project.",
+		"prerequisites": [
+			"Prerequisites: CPSC 362",
+			"junior or senior standing",
+			"Computer Science major."
+		],
+		"corequisites": [],
+		"credits": 3
+	},
+	"CPSC 491": {
+		"title": "Senior Capstone Project in Computer Science",
+		"description": "A computer science research or real-world level of application development project. Business communication. Presenting the results to a wide range of audiences. Demonstrating the culminating experience of the practicum in computer science. Writing a final project report and technical documents such as user manuals, installation guides, feasibility study reports.",
+		"prerequisites": ["CPSC 490."],
+		"corequisites": [],
+		"credits": 3
+	}
 }
