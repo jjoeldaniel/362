@@ -28,7 +28,6 @@
 			.eq('username', profile.username);
 
 		if (error) console.error('Error updating completions:', error);
-		else console.log('Updated completions:', data);
 	}
 </script>
 
