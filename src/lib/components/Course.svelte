@@ -6,8 +6,8 @@
 	export let prerequisites: string[] = [];
 	export let corequisites: string[] = [];
 	export let credits: number = 0;
-	export let completed: boolean = false;
 	export let completedCourses: Map<string, boolean> = new Map();
+	export let completed = completedCourses.get(name) || false;
 
 	function toggleCompletion() {
 		completed = !completed;
