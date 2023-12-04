@@ -44,7 +44,7 @@
 
 <div class="mt-4">
 	<button
-		class="bg-blue-500 text-white py-2 px-4 rounded cursor-pointer transition duration-300 focus:outline-none focus:border-blue-700 focus:ring focus:ring-blue-200"
+		class="bg-blue-300 hover:bg-blue-500 text-white py-2 px-4 rounded cursor-pointer transition duration-300 focus:outline-none focus:border-blue-700 focus:ring focus:ring-blue-200"
 		on:click={toggleDetails}
 	>
 		{division}

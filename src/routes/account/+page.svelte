@@ -93,7 +93,7 @@
 		<div>
 			<input
 				type="submit"
-				class="w-full py-2 px-4 bg-blue-500 text-white rounded cursor-pointer"
+				class="w-full py-2 px-4 bg-blue-300 hover:bg-blue-500 text-white rounded cursor-pointer"
 				value={loading ? 'Loading...' : 'Update'}
 				disabled={loading}
 			/>

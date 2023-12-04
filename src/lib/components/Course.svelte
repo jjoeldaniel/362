@@ -39,7 +39,7 @@
 	<p><strong>Corequisites:</strong> {corequisites.join(', ')}</p>
 	<p><strong>Credits:</strong> {credits}</p>
 	<button
-		class="py-2 px-4 bg-blue-500 text-white rounded mt-4 cursor-pointer"
+		class="py-2 px-4 bg-blue-300 hover:bg-blue-500 text-white rounded mt-4 cursor-pointer"
 		on:click={toggleCompletion}
 	>
 		{completed ? 'Mark Incomplete' : 'Mark Completed'}
