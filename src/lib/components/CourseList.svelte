@@ -5,7 +5,8 @@
 
 	export let division: string;
 	export let jsonFilePath: string;
-	export let completedCourses: Map<string, boolean> = new Map();
+	export let completions: Map<string, boolean> = new Map();
+	export let data: any;
 
 	let showDetails = false;
 
@@ -46,16 +47,17 @@
 		{division}
 	</button>
 	{#if showDetails}
-		{#each Object.entries(courses) as [key, course]}
+		{#each Object.entries(courses) as [name, course]}
 			<Course
-				name={key}
+				{data}
+				{name}
 				title={course.title}
 				description={course.description}
 				prerequisites={course.prerequisites}
 				corequisites={course.corequisites}
 				credits={course.credits}
-				completed={completedCourses.get(key) || false}
-				{completedCourses}
+				completed={completions.get(name) || false}
+				{completions}
 			/>
 		{/each}
 	{/if}

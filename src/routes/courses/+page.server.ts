@@ -9,7 +9,7 @@ export const load = async ({ locals: { supabase, getSession } }) => {
 
   const { data: profile } = await supabase
     .from('profiles')
-    .select(`username, avatar_url`)
+    .select(`username, avatar_url, completions`)
     .eq('id', session.user.id)
     .single()
 
@@ -17,6 +17,8 @@ export const load = async ({ locals: { supabase, getSession } }) => {
 }
 
 export const actions = {
+
+  // TODO: Update to reflect updating course completions
   update: async ({ request, locals: { supabase, getSession } }) => {
     const formData = await request.formData()
     const username = formData.get('username') as string
@@ -43,6 +45,7 @@ export const actions = {
       avatarUrl,
     }
   },
+  
   signout: async ({ locals: { supabase, getSession } }) => {
     const session = await getSession()
     if (session) {

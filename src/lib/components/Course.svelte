@@ -6,12 +6,30 @@
 	export let prerequisites: string[] = [];
 	export let corequisites: string[] = [];
 	export let credits: number = 0;
-	export let completedCourses: Map<string, boolean> = new Map();
-	export let completed = completedCourses.get(name) || false;
+	export let completions: Map<string, boolean> = new Map();
+	export let completed = completions.get(name) || false;
+	export let data: any;
 
-	function toggleCompletion() {
+	let { session, supabase, profile } = data;
+	$: ({ session, supabase, profile } = data);
+
+	async function toggleCompletion() {
 		completed = !completed;
-		completedCourses.set(name, completed);
+
+		if (!completed) completions.delete(name);
+		else completions.set(name, completed);
+
+		// Update the user's completions in the database
+		console.log(Object.fromEntries(completions));
+		const { data, error } = await supabase
+			.from('profiles')
+			.update({
+				completions: Object.fromEntries(completions)
+			})
+			.eq('username', profile.username);
+
+		if (error) console.error('Error updating completions:', error);
+		else console.log('Updated completions:', data);
 	}
 </script>
 
