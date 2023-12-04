@@ -7,9 +7,11 @@
 	export let corequisites: string[] = [];
 	export let credits: number = 0;
 	export let completed: boolean = false;
+	export let completedCourses: Map<string, boolean> = new Map();
 
 	function toggleCompletion() {
 		completed = !completed;
+		completedCourses.set(name, completed);
 	}
 </script>
 

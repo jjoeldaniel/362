@@ -17,11 +17,12 @@
 		grad_reqs: 'Graduation Requirements'
 	};
 
-	// TODO: Load course completion data from Supabase
+	// TODO: Load completedCourses from Supabase
+	let completedCourses: Map<string, boolean> = new Map();
 </script>
 
 <p>hi {username}</p>
 
 {#each Object.entries(divisions) as [key, division]}
-	<CourseList {division} jsonFilePath={`/data/${key}.json`} />
+	<CourseList {division} {completedCourses} jsonFilePath={`/data/${key}.json`} />
 {/each}

@@ -55,6 +55,7 @@
 				corequisites={course.corequisites}
 				credits={course.credits}
 				completed={completedCourses.get(key) || false}
+				{completedCourses}
 			/>
 		{/each}
 	{/if}
