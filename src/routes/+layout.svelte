@@ -19,12 +19,18 @@
 
 		return () => data.subscription.unsubscribe();
 	});
+
+	let loggedIn = false;
+
+	if (session) {
+		loggedIn = true;
+	}
 </script>
 
 <title>{Constants.APP_NAME}</title>
 
 <div class="h-screen">
-	<NavBar />
+	<NavBar loggedIn />
 	<div class="flex mt-24">
 		<div class="m-auto max-w-lg">
 			<slot />
