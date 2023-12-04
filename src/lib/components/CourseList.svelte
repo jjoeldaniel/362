@@ -42,49 +42,29 @@
 	});
 </script>
 
-<div>
-	<button on:click={toggleDetails}>
+<div class="mt-4">
+	<button
+		class="bg-blue-500 text-white py-2 px-4 rounded cursor-pointer transition duration-300 focus:outline-none focus:border-blue-700 focus:ring focus:ring-blue-200"
+		on:click={toggleDetails}
+	>
 		{division}
 	</button>
+
 	{#if showDetails}
-		{#each Object.entries(courses) as [name, course]}
-			<Course
-				{data}
-				{name}
-				title={course.title}
-				description={course.description}
-				prerequisites={course.prerequisites}
-				corequisites={course.corequisites}
-				credits={course.credits}
-				completed={completions[name] || false}
-				{completions}
-			/>
-		{/each}
+		<div class="mt-4 space-y-4">
+			{#each Object.entries(courses) as [name, course]}
+				<Course
+					{data}
+					{name}
+					title={course.title}
+					description={course.description}
+					prerequisites={course.prerequisites}
+					corequisites={course.corequisites}
+					credits={course.credits}
+					completed={completions[name] || false}
+					{completions}
+				/>
+			{/each}
+		</div>
 	{/if}
 </div>
-
-<style>
-	/* Styling for the button */
-	button {
-		background-color: #007bff;
-		color: white;
-		padding: 10px;
-		border: none;
-		cursor: pointer;
-		transition: background-color 0.3s;
-	}
-
-	button:hover {
-		background-color: #0056b3;
-	}
-
-	/* Styling for the container */
-	div {
-		margin: 20px;
-	}
-
-	/* Add focus styling for better accessibility */
-	button:focus {
-		outline: 2px solid #0056b3;
-	}
-</style>

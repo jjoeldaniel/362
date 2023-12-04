@@ -33,46 +33,17 @@
 	}
 </script>
 
-<div class="course {completed ? 'completed' : ''}">
-	<h3>{name}</h3>
+<div class="course border p-4 rounded transition {completed ? 'bg-blue-100' : ''}">
+	<h3 class="text-blue-500 cursor-pointer">{name}</h3>
 	<p><strong>Title:</strong> {title}</p>
 	<p><strong>Description:</strong> {description}</p>
 	<p><strong>Prerequisites:</strong> {prerequisites.join(', ')}</p>
 	<p><strong>Corequisites:</strong> {corequisites.join(', ')}</p>
 	<p><strong>Credits:</strong> {credits}</p>
-	<button on:click={toggleCompletion}>
+	<button
+		class="py-2 px-4 bg-blue-500 text-white rounded mt-4 cursor-pointer"
+		on:click={toggleCompletion}
+	>
 		{completed ? 'Mark Incomplete' : 'Mark Completed'}
 	</button>
 </div>
-
-<style>
-	.course {
-		border: 1px solid #ccc;
-		padding: 10px;
-		margin: 10px;
-		border-radius: 5px;
-	}
-
-	.completed {
-		background-color: #d3f1ff; /* Light blue background for completed courses */
-	}
-	div {
-		border: 1px solid #ccc;
-		padding: 10px;
-		margin: 10px;
-		border-radius: 5px;
-	}
-
-	h3 {
-		color: #007bff;
-		cursor: pointer;
-	}
-
-	.completed {
-		background-color: #d3f1ff; /* Light blue background for completed courses */
-	}
-
-	.course {
-		margin-top: 5px;
-	}
-</style>
