@@ -1,0 +1,66 @@
+{
+	"CPSC 120": {
+		"id": 1,
+		"title": "Introduction to Programming",
+		"description": "Introduction to the concepts underlying all computer programming: design and execution of programs; sequential nature of programs; use of assignment, control and input/output statements to accomplish desired tasks; design and use of functions. Structured and object-oriented methodologies. (1.5 hours lecture, 3 hours laboratory)",
+		"prerequisites": [],
+		"corequisites": [" MATH 125."],
+		"credits": 3
+	},
+	"CPSC 121": {
+		"id": 2,
+		"title": "Object-Oriented Programming",
+		"description": "The object-oriented programming paradigm: classes, member functions, interfaces, inheritance, polymorphism, and exceptions. Design practices including encapsulation, decoupling, and documentation. Pointers/references and memory management. Recursion. (2 hours lecture, 2 hours activity)",
+		"prerequisites": ["CPSC 120 or passing score on Computer Science Placement Exam."],
+		"corequisites": [],
+		"credits": 3
+	},
+	"CPSC 131": {
+		"id": 3,
+		"title": "Data Structures",
+		"description": "Classical data structures: vector, linked list, stack, queue, binary search tree, and graph representations. Worst-case analysis, amortized analysis, and big-O notation. Object-oriented and recursive implementation of data structures. Self-resizing vectors and self-balancing trees. Empirical performance measurement.",
+		"prerequisites": ["CPSC 121 or sufficient score on the Computer Science Placement Exam."],
+		"corequisites": [],
+		"credits": 3
+	},
+	"CPSC 223C": {
+		"id": 4,
+		"title": "C Programming",
+		"description": "Systems programming in the C language, including its syntax and semantics; essential idioms; important parts of the C11 and POSIX C APIs; security issues; and notable extensions libraries.",
+		"prerequisites": ["CPSC 131."],
+		"corequisites": [],
+		"credits": 3
+	},
+	"CPSC 223J": {
+		"id": 5,
+		"title": "Java Programming",
+		"description": "Characteristics of Java: portable, robust, secure, object-oriented, high performance; using the Java environment; server administration; types, expressions and control flow; classes, interfaces and packages; threads; exceptions; class libraries; Java for the Internet; tools, the Java Virtual machine. (2 hours lecture, 2 hours lab per week)",
+		"prerequisites": ["CPSC 131."],
+		"corequisites": [],
+		"credits": 3
+	},
+	"CPSC 223N": {
+		"id": 6,
+		"title": "Visual C# Programming",
+		"description": "Characteristics of C#, object-oriented design concepts, control structures, methods, arrays, classes, objects, inheritance, polymorphism, exception handling, graphical user interfaces, multithreading, characters, strings, files, streams. Rudiments of the Unified Modeling Language Software development assignments. (2 hours lecture, 2 hours laboratory)",
+		"prerequisites": ["CPSC 131."],
+		"corequisites": [],
+		"credits": 3
+	},
+	"CPSC 223P": {
+		"id": 7,
+		"title": "Python Programming",
+		"description": "Characteristics of Python: portable, robust, secure, object-oriented, functional, high performance, extensible; types, expressions, and control flow; classes, abstract base classes, modules, and packages; threads; exceptions; Python standard library. 2 hours lecture and 2 hours laboratory per week)",
+		"prerequisites": ["CPSC 131."],
+		"corequisites": [],
+		"credits": 3
+	},
+	"CPSC 240": {
+		"id": 8,
+		"title": "Computer Organization and Assembly Language",
+		"description": "Digital logic and architecture of a computer system, machine level representation of data, memory system organization, structure of low-level computer languages. Machine, assembly, and macro language programming. Principles of assembler operation, input-output programming, interrupt/exception handling. Laboratory programming assignments. (2 hours lecture, 2 hours laboratory)",
+		"prerequisites": ["Prerequisites: CPSC 131; MATH 270A or MATH 280."],
+		"corequisites": [],
+		"credits": 3
+	}
+}

@@ -5,6 +5,8 @@
 		isMenuOpen = !isMenuOpen;
 	}
 
+	export let loggedIn = false;
+
 	import Constants from '$lib/constants.js';
 </script>
 
@@ -27,9 +29,7 @@
 	{#if isMenuOpen}
 		<div class="w-full flex flex-row md:hidden flex-grow">
 			<div class="text-lg">
-				<a href="#responsive-header" class="block mt-4 text-gray-200 hover:text-white mr-4">
-					About
-				</a>
+				<a href="/courses" class="block mt-4 text-gray-200 hover:text-white mr-4"> Courses </a>
 				<a href="#responsive-header" class="block mt-4 text-gray-200 hover:text-white mr-4">
 					Tutorial
 				</a>
@@ -39,7 +39,11 @@
 					href="/login"
 					class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-gray-800 hover:bg-white mt-4"
 				>
-					Login
+					{#if loggedIn}
+						Account
+					{:else}
+						Login
+					{/if}
 				</a>
 			</div>
 		</div>
@@ -48,10 +52,10 @@
 	<div class="w-full hidden md:flex flex-grow md:items-center md:w-auto">
 		<div class="text-sm md:flex-grow">
 			<a
-				href="#responsive-header"
+				href="/courses"
 				class="block mt-4 md:inline-block md:mt-0 text-gray-200 hover:text-white mr-4"
 			>
-				About
+				Courses
 			</a>
 			<a
 				href="#responsive-header"
@@ -65,7 +69,11 @@
 				href="/login"
 				class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-gray-800 hover:bg-white mt-4 md:mt-0"
 			>
-				Login
+				{#if loggedIn}
+					Account
+				{:else}
+					Login
+				{/if}
 			</a>
 		</div>
 	</div>
