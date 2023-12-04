@@ -20,7 +20,6 @@
 		else completions[name] = completed;
 
 		// Update the user's completions in the database
-		console.log(completions);
 		const { data, error } = await supabase
 			.from('profiles')
 			.update({

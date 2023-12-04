@@ -20,7 +20,6 @@
 		grad_reqs: 'Graduation Requirements'
 	};
 
-	// TODO: Load completions from Supabase
 	let completions: any = profile?.completions ?? '{}';
 
 	let progress: number = 0;
