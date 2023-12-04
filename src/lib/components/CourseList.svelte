@@ -5,7 +5,7 @@
 
 	export let division: string;
 	export let jsonFilePath: string;
-	export let completions: Map<string, boolean> = new Map();
+	export let completions: any = {};
 	export let data: any;
 
 	let showDetails = false;
@@ -56,7 +56,7 @@
 				prerequisites={course.prerequisites}
 				corequisites={course.corequisites}
 				credits={course.credits}
-				completed={completions.get(name) || false}
+				completed={completions[name] || false}
 				{completions}
 			/>
 		{/each}

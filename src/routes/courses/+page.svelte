@@ -18,7 +18,7 @@
 	};
 
 	// TODO: Load completions from Supabase
-	let completions: Map<string, boolean> = new Map();
+	let completions: any = profile?.completions ?? '{}';
 </script>
 
 <p>hi {username}</p>

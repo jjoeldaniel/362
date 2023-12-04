@@ -6,8 +6,8 @@
 	export let prerequisites: string[] = [];
 	export let corequisites: string[] = [];
 	export let credits: number = 0;
-	export let completions: Map<string, boolean> = new Map();
-	export let completed = completions.get(name) || false;
+	export let completions: any = {};
+	export let completed = completions[name] || false;
 	export let data: any;
 
 	let { session, supabase, profile } = data;
@@ -16,15 +16,15 @@
 	async function toggleCompletion() {
 		completed = !completed;
 
-		if (!completed) completions.delete(name);
-		else completions.set(name, completed);
+		if (!completed) delete completions[name];
+		else completions[name] = completed;
 
 		// Update the user's completions in the database
-		console.log(Object.fromEntries(completions));
+		console.log(completions);
 		const { data, error } = await supabase
 			.from('profiles')
 			.update({
-				completions: Object.fromEntries(completions)
+				completions: completions
 			})
 			.eq('username', profile.username);
 
