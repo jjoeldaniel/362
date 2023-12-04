@@ -4,7 +4,8 @@
 	import Course from './Course.svelte';
 
 	export let division: string;
-	export let jsonFilePath: string; // Add a prop for the JSON file path
+	export let jsonFilePath: string;
+	export let completedCourses: Map<string, boolean> = new Map();
 
 	let showDetails = false;
 
@@ -13,9 +14,6 @@
 	}
 
 	let courses: Array<{
-		key: number;
-		id: number;
-		'course code': string;
 		title: string;
 		description: string;
 		prerequisites: string[];
@@ -56,6 +54,7 @@
 				prerequisites={course.prerequisites}
 				corequisites={course.corequisites}
 				credits={course.credits}
+				completed={completedCourses.get(key) || false}
 			/>
 		{/each}
 	{/if}
