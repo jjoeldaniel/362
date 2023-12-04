@@ -1,22 +1,22 @@
 {
-	"course_76": {
-		"course code": "HONR 201B",
-		"title": "Honors Seminar: American Institutions and Values since 1900",
-		"description": "Critically examines the historical development of American institutions and values, including American political culture and constitutional system. Specific attention to cultural diversity, particularly race, ethnicity, gender, and class, exploring the interaction, conflict, and cooperation of diverse groups in historical context.",
-		"prerequisites": ["Student must be in the Honors Program."],
-		"corequisites": [],
-		"credits": 3,
-		"gridColumn": "1",
-		"gridRow": "1"
-	},
-	"course_77": {
-		"course code": "POSC 100",
-		"title": "American Government",
-		"description": "People, their politics, and power; contemporary issues, changing political styles and processes, institution and underlying values of the American political system. Satisfies state requirements in U.S. Constitution and California State and local government.",
-		"prerequisites": [],
-		"corequisites": [],
-		"credits": 3,
-		"gridColumn": "1",
-		"gridRow": "1"
-	}
+    "course_76": {
+        "course code": "HONR 201B",
+        "title": "Honors Seminar: American Institutions and Values since 1900",
+        "description": "Critically examines the historical development of American institutions and values, including American political culture and constitutional system. Specific attention to cultural diversity, particularly race, ethnicity, gender, and class, exploring the interaction, conflict, and cooperation of diverse groups in historical context.",
+        "prerequisites": [
+            "Student must be in the Honors Program."
+        ],
+        "corequisites": [],
+        "credits": 3,
+        "checked": false
+    },
+    "course_77": {
+        "course code": "POSC 100",
+        "title": "American Government",
+        "description": "People, their politics, and power; contemporary issues, changing political styles and processes, institution and underlying values of the American political system. Satisfies state requirements in U.S. Constitution and California State and local government.",
+        "prerequisites": [],
+        "corequisites": [],
+        "credits": 3,
+        "checked": false
+    }
 }

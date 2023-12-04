@@ -1,54 +1,55 @@
 {
-	"course_19": {
-		"course code": "MATH 150A",
-		"title": "Calculus I",
-		"description": "Properties of functions. The limit, derivative and definite integral concepts; applications of the derivative, techniques and applications of integration. Six units of credit are given for both MATH 130 and MATH 150A, or for both MATH 135 and MATH 150A. Biology, geology and earth science majors who pass ALEKS must take MATH 130. CBE majors who pass ALEKS must take MATH 135.",
-		"prerequisites": [
-			"passing score on ALEKS; or passing score or exemption on MQE; or MATH 125 with C (2.0) or better."
-		],
-		"corequisites": [],
-		"credits": 4,
-		"gridColumn": "1",
-		"gridRow": "1"
-	},
-	"course_20": {
-		"course code": "MATH 150B",
-		"title": "Calculus II",
-		"description": "Techniques of integration, improper integrals and applications of integration. Introduction to differential equations. Parametric equations, sequences and series.",
-		"prerequisites": ["MATH 150A."],
-		"corequisites": [],
-		"credits": 4,
-		"gridColumn": "1",
-		"gridRow": "1"
-	},
-	"course_21": {
-		"course code": "MATH 270A",
-		"title": "Mathematical Structures I",
-		"description": "First of two semesters of fundamental discrete mathematical concepts and techniques needed in computer-related disciplines. Logic, truth tables, elementary set theory, proof techniques, combinatorics and Boolean algebra. Must have completed four years of high school mathematics.",
-		"prerequisites": [],
-		"corequisites": [],
-		"credits": 3,
-		"gridColumn": "1",
-		"gridRow": "1"
-	},
-	"course_22": {
-		"course code": "MATH 270B",
-		"title": "Mathematical Structures II",
-		"description": "Second of two semesters of fundamental discrete mathematical concepts and techniques needed in computer-related disciplines. Graph theory, algebraic structures and linear algebra.",
-		"prerequisites": ["MATH 270A."],
-		"corequisites": [],
-		"credits": 3,
-		"gridColumn": "1",
-		"gridRow": "1"
-	},
-	"course_23": {
-		"course code": "MATH 338",
-		"title": "Statistics Applied to Natural Sciences",
-		"description": "Introduction to the theory and application of statistics. Elementary probability, estimation, hypothesis testing, regression, variance analysis, non-parametric tests. Computer-aided analysis of real data. Graphical techniques, generating and interpreting statistical output, presentation of analysis.",
-		"prerequisites": ["MATH 130 or MATH 150B."],
-		"corequisites": [],
-		"credits": 4,
-		"gridColumn": "1",
-		"gridRow": "1"
-	}
+    "course_19": {
+        "course code": "MATH 150A",
+        "title": "Calculus I",
+        "description": "Properties of functions. The limit, derivative and definite integral concepts; applications of the derivative, techniques and applications of integration. Six units of credit are given for both MATH 130 and MATH 150A, or for both MATH 135 and MATH 150A. Biology, geology and earth science majors who pass ALEKS must take MATH 130. CBE majors who pass ALEKS must take MATH 135.",
+        "prerequisites": [
+            "passing score on ALEKS; or passing score or exemption on MQE; or MATH 125 with C (2.0) or better."
+        ],
+        "corequisites": [],
+        "credits": 4,
+        "checked": false
+    },
+    "course_20": {
+        "course code": "MATH 150B",
+        "title": "Calculus II",
+        "description": "Techniques of integration, improper integrals and applications of integration. Introduction to differential equations. Parametric equations, sequences and series.",
+        "prerequisites": [
+            "MATH 150A."
+        ],
+        "corequisites": [],
+        "credits": 4,
+        "checked": false
+    },
+    "course_21": {
+        "course code": "MATH 270A",
+        "title": "Mathematical Structures I",
+        "description": "First of two semesters of fundamental discrete mathematical concepts and techniques needed in computer-related disciplines. Logic, truth tables, elementary set theory, proof techniques, combinatorics and Boolean algebra. Must have completed four years of high school mathematics.",
+        "prerequisites": [],
+        "corequisites": [],
+        "credits": 3,
+        "checked": false
+    },
+    "course_22": {
+        "course code": "MATH 270B",
+        "title": "Mathematical Structures II",
+        "description": "Second of two semesters of fundamental discrete mathematical concepts and techniques needed in computer-related disciplines. Graph theory, algebraic structures and linear algebra.",
+        "prerequisites": [
+            "MATH 270A."
+        ],
+        "corequisites": [],
+        "credits": 3,
+        "checked": false
+    },
+    "course_23": {
+        "course code": "MATH 338",
+        "title": "Statistics Applied to Natural Sciences",
+        "description": "Introduction to the theory and application of statistics. Elementary probability, estimation, hypothesis testing, regression, variance analysis, non-parametric tests. Computer-aided analysis of real data. Graphical techniques, generating and interpreting statistical output, presentation of analysis.",
+        "prerequisites": [
+            "MATH 130 or MATH 150B."
+        ],
+        "corequisites": [],
+        "credits": 4,
+        "checked": false
+    }
 }
