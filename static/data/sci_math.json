@@ -1,6 +1,5 @@
 {
-    "course_24": {
-        "course code": "BIOL 101",
+    "BIOL 101": {
         "title": "Elements of Biology",
         "description": "Underlying principles governing life forms, processes and interactions. Elements of biology and reasoning skills for understanding scientific issues on personal, societal and global levels. For non-science majors. No credit toward biological science major.",
         "prerequisites": [],
@@ -8,8 +7,7 @@
         "credits": 3,
         "checked": false
     },
-    "course_25": {
-        "course code": "BIOL 101L",
+    "BIOL 101L": {
         "title": "Elements of Biology Laboratory",
         "description": "Laboratory experiments demonstrating principles from the lecture course. Scientific inquiry, cells, physiology, genetics, biodiversity, evolution and ecology. Hybrid sections require online and in-person activities (3 hours laboratory or fieldwork; weekend field trips and online coursework may be required). For non-science majors.",
         "prerequisites": [],
@@ -17,8 +15,7 @@
         "credits": 1,
         "checked": false
     },
-    "course_26": {
-        "course code": "BIOL 151",
+    "BIOL 151": {
         "title": "Cellular and Molecular Biology",
         "description": "Lecture and laboratory exploration of eukaryotic/prokaryotic cellular structure and function, biological molecules, classical/Mendelian genetics, regulation of gene expression and biotechnology, cell signaling, metabolic pathways, the process and regulation of cellular reproduction, evolution of multicellularity. (For majors in CNSM). (3 hours lecture, 3 hours laboratory)",
         "prerequisites": [],
@@ -26,8 +23,7 @@
         "credits": 4,
         "checked": false
     },
-    "course_27": {
-        "course code": "BIOL 152",
+    "BIOL 152": {
         "title": "Evolution and Organismal Biology",
         "description": "Introduction to evolution and organismal biology. Evolutionary processes that resulted in the biodiversity of life on Earth. Physiological processes and ecological challenges for organisms. (3 hours lecture, 3 hours laboratory/fieldwork; weekend field trips required)",
         "prerequisites": [
@@ -37,8 +33,7 @@
         "credits": 4,
         "checked": false
     },
-    "course_28": {
-        "course code": "CHEM 120A",
+    "CHEM 120A": {
         "title": "General Chemistry",
         "description": "For majors and minors in the physical and biological sciences. The principles of chemistry: stoichiometry, acids, bases, redox reactions, gas laws, solid and liquid states, changes of state, modern atomic concepts, periodicity and chemical bonding. Laboratory: elementary syntheses, spectroscopy and volumetric quantitative analysis. (3 hours lecture, 3 hours laboratory, 2 hours activity)",
         "prerequisites": [
@@ -48,8 +43,7 @@
         "credits": 5,
         "checked": false
     },
-    "course_29": {
-        "course code": "CHEM 120B",
+    "CHEM 120B": {
         "title": "General Chemistry",
         "description": "For majors and minors in the physical and biological sciences, chemical thermodynamics, chemical equilibrium (gaseous, aqueous, acid-base, solubility and complexation), elementary electrochemistry and chemical kinetics. Laboratory: quantitative and qualitative analysis and elementary physical chemistry; some qualitative analysis. (3 hours lecture, 6 hours laboratory).",
         "prerequisites": [
@@ -59,8 +53,7 @@
         "credits": 5,
         "checked": false
     },
-    "course_30": {
-        "course code": "CHEM 123",
+    "CHEM 123": {
         "title": "Chemistry for Engineers",
         "description": "Fundamental concepts of chemistry for engineering students. Atomic structure, periodic table, stoichiometry, states of matter, chemical bonding, new materials, solutions, thermodynamics, reaction rates, equilibrium, electrochemistry, polymers and nuclear reactions.",
         "prerequisites": [],
@@ -70,8 +63,7 @@
         "credits": 3,
         "checked": false
     },
-    "course_31": {
-        "course code": "CHEM 125",
+    "CHEM 125": {
         "title": "General Chemistry B Lecture",
         "description": "For students who do not need a second semester of general chemistry lab. Chemical thermodynamics, chemical equilibrium (gaseous, aqueous, acid-base, solubility and complexion), elementary electrochemistry and chemical kinetics. Not open to students with credit in CHEM 120B.",
         "prerequisites": [
@@ -81,8 +73,7 @@
         "credits": 3,
         "checked": false
     },
-    "course_32": {
-        "course code": "GEOL 101",
+    "GEOL 101": {
         "title": "Introduction to Geology",
         "description": "Introduction to the science of rocks, fossils, volcanoes, earthquakes, landscapes and oceans. Natural hazards, geology in everyday life and geology as field of practice. High school algebra recommended.",
         "prerequisites": [],
@@ -90,8 +81,7 @@
         "credits": 3,
         "checked": false
     },
-    "course_33": {
-        "course code": "GEOL 101L",
+    "GEOL 101L": {
         "title": "Introduction to Geology Laboratory",
         "description": "Hands-on analysis and evaluation of rocks, maps, geologic time and Earth processes. Natural hazards, geology in everyday life and scientific inquiry.",
         "prerequisites": [],
@@ -99,8 +89,7 @@
         "credits": 1,
         "checked": false
     },
-    "course_34": {
-        "course code": "GEOL 201",
+    "GEOL 201": {
         "title": "Earth History",
         "description": "Evolution of Earth as interpreted from rocks, fossils and geologic structures. Plate tectonics provides a unifying theme for consideration of mountain building, evolution of life and ancient environments. (2 hours lecture, 3 hours laboratory, field trips)",
         "prerequisites": [
@@ -110,8 +99,7 @@
         "credits": 3,
         "checked": false
     },
-    "course_35": {
-        "course code": "GEOL 201L",
+    "GEOL 201L": {
         "title": "Earth History Supplemental Lab",
         "description": "Supervised research on topics related to Earth history. Project will result in a term paper and/or web page. (3 hours laboratory, field trips)",
         "prerequisites": [],
@@ -121,8 +109,7 @@
         "credits": 1,
         "checked": false
     },
-    "course_36": {
-        "course code": "MATH 250A",
+    "MATH 250A": {
         "title": "Calculus III",
         "description": "Calculus of functions of several variables. Partial derivatives and multiple integrals with applications. Parametric curves, vector-valued functions, vector fields, line integrals, Green\u2019s Theorem, Stokes\u2019 theorem, the Divergence Theorem, vectors and the geometry of 3-space.",
         "prerequisites": [
@@ -132,8 +119,7 @@
         "credits": 4,
         "checked": false
     },
-    "course_37": {
-        "course code": "MATH 250B",
+    "MATH 250B": {
         "title": "Introduction to Linear Algebra and Differential Equations",
         "description": "Introduction to the solutions of ordinary differential equations and their relationship to linear algebra. Topics include matrix algebra, systems of linear equations, vector spaces, linear independence, linear transformations and eigenvalues.",
         "prerequisites": [
@@ -143,8 +129,7 @@
         "credits": 4,
         "checked": false
     },
-    "course_38": {
-        "course code": "PHYS 225",
+    "PHYS 225": {
         "title": "Fundamental Physics: Mechanics",
         "description": "Classical Newtonian mechanics; linear and circular motion; energy; linear/angular momentum; systems of particles; rigid body motion; wave motion and sound.",
         "prerequisites": [
@@ -156,8 +141,7 @@
         "credits": 3,
         "checked": false
     },
-    "course_39": {
-        "course code": "PHYS 225L",
+    "PHYS 225L": {
         "title": "Fundamental Physics: Laboratory",
         "description": "Laboratory for PHYS 225. Instructional fee required. (3 hours laboratory)",
         "prerequisites": [],
@@ -167,8 +151,7 @@
         "credits": 1,
         "checked": false
     },
-    "course_40": {
-        "course code": "PHYS 226",
+    "PHYS 226": {
         "title": "Fundamental Physics: Electricity and Magnetism",
         "description": "Electrostatics, electric potential, capacitance, dielectrics, electrical circuits, resistance, emf, electromagnetic induction, magnetism and magnetic materials, and introduction to Maxwell\u2019s equations.",
         "prerequisites": [
@@ -182,8 +165,7 @@
         "credits": 3,
         "checked": false
     },
-    "course_41": {
-        "course code": "PHYS 226L",
+    "PHYS 226L": {
         "title": "Fundamental Physics: Laboratory",
         "description": "Laboratory for PHYS 226. Instructional fee required. (3 hours laboratory)",
         "prerequisites": [],
@@ -193,8 +175,7 @@
         "credits": 1,
         "checked": false
     },
-    "course_42": {
-        "course code": "PHYS 227",
+    "PHYS 227": {
         "title": "Fundamental Physics: Waves, Optics, and Modern Physics",
         "description": "Geometrical and physical optics, wave phenomena; quantum physics, including the photoelectric effect, line spectra and the Bohr atom; the wave nature of matter, Schroedinger\u2019s equation and solutions; the Uncertainty Principle, special theory of relativity.",
         "prerequisites": [
@@ -215,8 +196,7 @@
         ],
         "checked": false
     },
-    "course_43": {
-        "course code": "PHYS 227L",
+    "PHYS 227L": {
         "title": "Fundamental Physics: Laboratory",
         "description": "Laboratory for PHYS 227. Instructional fee required. (3 hours laboratory)",
         "prerequisites": [],
