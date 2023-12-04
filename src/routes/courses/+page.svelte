@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Avatar from '$lib/components/Avatar.svelte';
 	import CourseList from '$lib/components/CourseList.svelte';
 
 	export let data;
@@ -22,6 +23,11 @@
 </script>
 
 <h1 class="text-3xl font-bold">Courses</h1>
+
+<div class="flex items-center mt-4 mb-8">
+	<Avatar {data} bind:url={avatarUrl} size={150} />
+	<h2 class="ml-4 text-xl font-bold">Welcome, {username}!</h2>
+</div>
 
 <p class="mt-4 mb-8">
 	Welcome to the course catalog! Here you can find all the courses required for a Comptute Science

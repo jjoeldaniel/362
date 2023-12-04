@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { enhance } from '$app/forms';
 	import type { SubmitFunction } from '@sveltejs/kit';
-	import Avatar from '$lib/components/Avatar.svelte';
+	import AvatarUpload from '$lib/components/AvatarUpload.svelte';
 
 	export let data;
 	export let form;
@@ -59,7 +59,7 @@
 <div
 	class="max-w-md mx-auto p-4 bg-white rounded shadow-lg lg:max-w-xl xl:max-w-2xl flex items-center space-x-4"
 >
-	<Avatar {data} bind:url={avatarUrl} size={150} on:upload={updateProfile} />
+	<AvatarUpload {data} bind:url={avatarUrl} size={150} on:upload={updateProfile} />
 
 	<form
 		class="flex-1 space-y-4"
