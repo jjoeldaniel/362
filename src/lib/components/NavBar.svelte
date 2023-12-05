@@ -28,7 +28,7 @@
 
 	{#if isMenuOpen}
 		<div class="w-full flex flex-row md:hidden flex-grow">
-			<div class="text-lg">
+			<div class="text-lg flex flex-row">
 				<a href="/courses" class="block mt-4 text-gray-200 hover:text-white mr-4"> Courses </a>
 				<a href="/tutorial" class="block mt-4 text-gray-200 hover:text-white mr-4">
 					Tutorial
