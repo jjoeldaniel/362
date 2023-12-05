@@ -8,7 +8,7 @@
         class="rounded-3xl rounded-b-none flex flex-col items-center justify-center bg-gradient-to-b md:px-10 pt-10 mb-5 md:mb-12 text-white from-indigo-900 via-indigo-700 to-indigo-500"
     >
         <h1 class="pb-4 text-3xl md:text-4xl font-extrabold tracking-wider">{Title}</h1>
-        <blockquote class="pb-8 md:text-xl text-lg font-medium italic max-w-2xl text-center">
+        <blockquote class="pb-8 px-2 md:text-xl text-lg font-medium italic max-w-2xl text-center">
             "The most beautiful thing we can experience is the mysterious. It is the source of all true art and science."
 			<br />
 			<span class="font-bold">- Albert Einstein</span>
