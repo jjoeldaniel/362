@@ -27,7 +27,7 @@
 
 <div class="h-screen">
 	<NavBar {loggedIn} />
-	<div class="flex mt-14">
+	<div class="flex mt-8 md:mt-14">
 		<div class="m-auto max-w-lg px-3 md:px-0">
 			<slot />
 		</div>
