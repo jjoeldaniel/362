@@ -9,7 +9,8 @@ for this project we used
 * Tailwind for our CSS
 * typescript for our language
 * Vite for set up
-* Asana for Project management
+* Bun for package management
+* Asana for project management
 * Lucid chart for Visualisation
 
 ## Downloading Code
