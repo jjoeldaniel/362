@@ -1,29 +1,44 @@
-## Check out the website
-follow this link to view the website: https://362.vercel.app/courses
+## View the Website
 
-## Tech stack
-for this project we used
-* Svelte for our web framework
-* Sveltekit for our server code
-* Supabase for our database / authentication
-* Tailwind for our CSS
-* typescript for our language
-* Vite for set up
-* Bun for package management
-* Asana for project management
-* Lucid chart for Visualisation
+To view the website, please follow this link: [362.vercel.app](https://362.vercel.app/)
 
-## Downloading Code
+## Tech Stack
 
-on the very top next to the button code click the option to fork or clode this repository
+For this project, we used the following technologies:
+
+- Svelte: Our web framework
+- Sveltekit: Our server code
+- Supabase: Our database and authentication provider
+- Tailwind: Our CSS framework
+- TypeScript: Our programming language
+- Vite: Our build tool
+- Bun: Our package management tool
+- Asana: Our project management tool
+- Lucidchart: Our visualization tool
+
+## Clone the Repository
+
+On the top right of the repository,click the code button to fork or clone this repository.
 
 ## Setting up enviroment
 
-type npm install to install all needed dependencies
-Next create a .env folder to hold the keys to our database (keys will be included with project submission)
+Install all required dependencies
+
+```terminal
+npm install
+```
+
+Copy the example env file and fill out required environment variables (keys will be included with project submission)
+
+```terminal
+cp .env.example .env
+```
 
 ## Running code manually
 
-in the terminal type npm run dev or npm run dev -- --open
+```terminal
+npm run dev
+```
+
 It will now be running on localhoast, follow the link in the terminal to view the website
 
