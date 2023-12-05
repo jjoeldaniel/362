@@ -1,6 +1,17 @@
 ## Check out the website
 follow this link to view the website: https://362.vercel.app/courses
 
+## Tech stack
+for this project we used
+* Svelte for our web framework
+* Sveltekit for our server code
+* Supabase for our database / authentication
+* Tailwind for our CSS
+* typescript for our language
+* Vite for set up
+* Asana for Project management
+* Lucid chart for Visualisation
+
 ## Downloading Code
 
 on the very top next to the button code click the option to fork or clode this repository
