@@ -25,7 +25,7 @@
 			.update({
 				completions: completions
 			})
-			.eq('username', profile.username);
+			.eq('id', session.user.id)
 
 		if (error) console.error('Error updating completions:', error);
 	}
