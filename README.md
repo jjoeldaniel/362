@@ -28,7 +28,7 @@ Install all required dependencies
 npm install
 ```
 
-Copy the example env file and fill out required environment variables (keys will be included with project submission)
+Copy the `.env.example` file and fill out required environment variables (keys will be included with project submission).
 
 ```terminal
 cp .env.example .env
@@ -40,5 +40,5 @@ cp .env.example .env
 npm run dev
 ```
 
-It will now be running on localhoast, follow the link in the terminal to view the website
+The server will now be running on localhost, follow the link in the terminal to view the website.
 
