@@ -30,7 +30,7 @@
 		<div class="w-full flex flex-row md:hidden flex-grow">
 			<div class="text-lg">
 				<a href="/courses" class="block mt-4 text-gray-200 hover:text-white mr-4"> Courses </a>
-				<a href="#responsive-header" class="block mt-4 text-gray-200 hover:text-white mr-4">
+				<a href="/tutorial" class="block mt-4 text-gray-200 hover:text-white mr-4">
 					Tutorial
 				</a>
 			</div>
@@ -58,7 +58,7 @@
 				Courses
 			</a>
 			<a
-				href="#responsive-header"
+				href="/tutorial"
 				class="block mt-4 md:inline-block md:mt-0 text-gray-200 hover:text-white mr-4"
 			>
 				Tutorial

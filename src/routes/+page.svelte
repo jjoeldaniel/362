@@ -2,7 +2,7 @@
 	import Constants from '$lib/constants.js';
 </script>
 
-<div class="flex flex-col items-center justify-center">
+<div class="flex pb-10 flex-col items-center justify-center">
 	<div
 		class="rounded-3xl rounded-b-none flex flex-col items-center justify-center bg-gradient-to-b md:px-10 pt-10 mb-5 md:mb-12 text-white from-indigo-900 via-indigo-700 to-indigo-500"
 	>

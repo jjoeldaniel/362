@@ -1,38 +1,29 @@
-# create-svelte
+## Check out the website
+follow this link to view the website: https://362.vercel.app/courses
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Tech stack
+for this project we used
+* Svelte for our web framework
+* Sveltekit for our server code
+* Supabase for our database / authentication
+* Tailwind for our CSS
+* typescript for our language
+* Vite for set up
+* Bun for package management
+* Asana for project management
+* Lucid chart for Visualisation
 
-## Creating a project
+## Downloading Code
 
-If you're seeing this, you've probably already done this step. Congrats!
+on the very top next to the button code click the option to fork or clode this repository
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Setting up enviroment
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+type npm install to install all needed dependencies
+Next create a .env folder to hold the keys to our database (keys will be included with project submission)
 
-## Developing
+## Running code manually
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+in the terminal type npm run dev or npm run dev -- --open
+It will now be running on localhoast, follow the link in the terminal to view the website
 
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
