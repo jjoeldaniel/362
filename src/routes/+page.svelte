@@ -18,11 +18,6 @@
 			empower college students in planning their educational trajectory.
 		</p>
 		<p>
-			Seamlessly upload your college audit PDF through our intuitive interface, unveiling a
-			comprehensive overview of completed courses, outstanding requirements, and personalized
-			recommendations.
-		</p>
-		<p>
 			Effortlessly save your progress, allowing you to curate your academic path with ease over
 			multiple semesters. Whether you're a fledgling freshman or a seasoned senior, entrust us to
 			guide you towards success with confidence and clarity.
