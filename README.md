@@ -22,6 +22,8 @@ On the top right of the repository,click the code button to fork or clone this r
 
 ## Setting up enviroment
 
+> Note: If using [bun.sh](https://bun.sh/), simply replace occurances of `node` with `bun`!
+
 Install all required dependencies
 
 ```terminal
